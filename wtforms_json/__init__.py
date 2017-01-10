@@ -229,7 +229,7 @@ def from_json(
         obj=obj,
         prefix=prefix,
         data=data,
-        meta=meta,
+        meta=meta or {},
         **kwargs
     )
     return form
